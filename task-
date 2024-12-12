@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK</title>
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+        }
+        p{
+            background-color: yellow;
+            color:blue;
+            border-right:solid 20px;
+        }
+        a{
+            background-color: black;
+            color: white;
+            font-size: 45px;
+            margin:25px;
+            text-decoration: none;
+        }
+        li{
+            background-color:blue;
+            color:aliceblue;
+            padding:5px;
+            margin:10px;
+            width:300px;
+            list-style-type: none;
+        }
+        img{
+            margin:15px;
+            width="200px"
+        }
+    </style>
+</head>
+<body>
+    <h1>Cascadling Style Sheet</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptate deserunt quidem et obcaecati modi cum reprehenderit consectetur reiciendis, quibusdam quis qui sapiente temporibus nisi illum animi cupiditate recusandae ut.
+    </p>
+    <a href="#">Link1</a>
+    <a href="#">Link2</a>
+    <a href="#">Link3</a>
+    <ol>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Java Script</li>
+    </ol>
+    <img src="images/lion1.jpeg" width="200px" />
+    <img src="images/lion1.jpeg" width="200px"/>
+    <img src="images/lion1.jpeg" width="200px" />    
+</body>
+</html>
